@@ -1,0 +1,85 @@
+.first{
+    padding: 50px;
+    width: 700px;
+    height: 5px;
+    border: rgb(150, 150, 150);
+    opacity: 0.3;
+    background-color: rgb(150, 150, 150);
+    border-radius:1px;
+}
+.second{
+    padding: 50px;
+    width: 700px;
+    height: 5px;
+    border: rgb(150, 150, 150);
+    opacity: 0.3;
+    background-color: rgb(150, 150, 150);
+    border-radius:1px
+}
+.third{
+    padding: 50px;
+    width: 700px;
+    height: 5px;
+    border: rgb(150, 150, 150);
+    opacity: 0.3;
+    background-color: rgb(150, 150, 150);
+    border-radius:1px
+}
+.fourth{
+    padding: 50px;
+    width: 700px;
+    height: 5px;
+    border: rgb(150, 150, 150);
+    opacity: 0.3;
+    background-color: rgb(150, 150, 150);
+    border: radius 1px;
+}
+
+.seventh {
+    padding: 50px;
+    width: 700px;
+    height: 5px;
+    border: rgb(150, 150, 150);
+    opacity: 0.3;
+    background-color: rgb(150, 150, 150);
+    border: radius 1px;
+}
+
+header {
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+.line {
+    color:#5a5959;
+    border:  1px solid black;
+    width: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5px;
+    height: 2vh;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 13%;
+    font-size: 18px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    height: 10px;
+    margin-right: 20px;
+}
+
+.scroll {
+    height: fit-content;
+    width: 300px;
+}
+
+body{
+    font-family: 'open sans' ,Arial, Helvetica, sans-serif ;
+    line-height: 1.5;
+    overflow: scroll;
+}
