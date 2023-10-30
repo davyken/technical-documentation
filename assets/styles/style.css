@@ -1,85 +1,51 @@
-.first{
-    padding: 50px;
-    width: 700px;
-    height: 5px;
-    border: rgb(150, 150, 150);
-    opacity: 0.3;
-    background-color: rgb(150, 150, 150);
-    border-radius:1px;
-}
-.second{
-    padding: 50px;
-    width: 700px;
-    height: 5px;
-    border: rgb(150, 150, 150);
-    opacity: 0.3;
-    background-color: rgb(150, 150, 150);
-    border-radius:1px
-}
-.third{
-    padding: 50px;
-    width: 700px;
-    height: 5px;
-    border: rgb(150, 150, 150);
-    opacity: 0.3;
-    background-color: rgb(150, 150, 150);
-    border-radius:1px
-}
-.fourth{
-    padding: 50px;
-    width: 700px;
-    height: 5px;
-    border: rgb(150, 150, 150);
-    opacity: 0.3;
-    background-color: rgb(150, 150, 150);
-    border: radius 1px;
+body {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    gap: 15px;
 }
 
-.seventh {
-    padding: 50px;
-    width: 700px;
-    height: 5px;
-    border: rgb(150, 150, 150);
-    opacity: 0.3;
-    background-color: rgb(150, 150, 150);
-    border: radius 1px;
+div {
+    position: fixed;
+    text-align: left;
+    width: 25%;
+    overflow: scroll;
+    top: 0;
+    left: 0;
+    height: 100%;
 }
 
-header {
-    font-size: 30px;
-    text-align: center;
-    border: 1px solid black;
+main {
+    display: flex;
+    justify-content: center;
     flex-direction: column;
+    text-align: left;
+    margin-left: 30px;
 }
 
-.line {
-    color:#5a5959;
-    border:  1px solid black;
-    width: 25vh;
+.nav{
+    height: fit-content;
+}
+
+.line{
+    margin: 30px auto;
+    padding-top: 10px;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 5px;
-    height: 2vh;
+    height: 5px;
+    padding-bottom: 3px;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 13%;
-    font-size: 18px;
-    border-right: 1px solid;
-    border-bottom: 1px solid;
-    border-left: 1px solid;
-    height: 10px;
-    margin-right: 20px;
 }
 
-.scroll {
-    height: fit-content;
-    width: 300px;
+h1 {
+   text-align: center;
 }
 
-body{
-    font-family: 'open sans' ,Arial, Helvetica, sans-serif ;
-    line-height: 1.5;
-    overflow: scroll;
+code {
+    background-color: rgb(159, 157, 157);
+    padding: 15px;
+    border-radius: 10px;
+    opacity: 0.5;
+    margin: 0 10px;
 }
